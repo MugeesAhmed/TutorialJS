@@ -8,4 +8,10 @@ console.log(age);
 const name = "Mugees Ahmed";
 console.log(name);
 
-//always use consts unless you know that you want to reassing value later on
+/*always use consts unless you know that you want to 
+reassinging value later on */
+
+//value is always required to be adding in const while adding variable
+
+const age =18;
+console.log(age);
