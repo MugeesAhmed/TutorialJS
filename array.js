@@ -26,31 +26,3 @@ console.log(fruits);
 console.log(Array.isArray(fruits));
 
 console.log(fruits.indexOf('oranges'));
-
-
-
-//Pulling Value out of an object inside an array\
-const todos = [
-    {
-        id:1,
-        text: 'take out trash',
-        isCompleted: true
-    },
-    {
-        id:2,
-        text:'Meeting with Boss',
-        isCompleted:true
-    },
-    {
-        id:3,
-        text: 'Dentist Appt',
-        isCompleted:true,
-    }
-
-];
-
-console.log(todos[1]);
-
-
-const todoJSON = JSON.stringify(todos);
-console.log(todos);
